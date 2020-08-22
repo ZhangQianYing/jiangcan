@@ -28,9 +28,9 @@ $(function () {
                 botui.message.add({delay: 1200, content: "将敲代码看成一种快乐"}).then(function () {
                     botui.message.add({
                         delay: 1500,
-                        content: "拥有两年 Java 开发经验，熟练使用 Spring Boot 框架，了解 Redis 等缓存组件。对前后端分离模式，可视化开发深入理解，对 Vue 有丰富的开发经验，具备一定的框架设计能力。"
+                        content: "拥有三年前端开发经验，熟练使用 Vue react uni-app taro 等框架，熟练使用 iview vant element-ui ant-design等组件。对前后端分离模式，面向对象编程深入理解。"
                     }).then(function () {
-                        botui.message.add({delay: 1800, content: "喜欢健身、接触新事物、打游戏"}).then(function () {
+                        botui.message.add({delay: 1800, content: "喜欢摄影、接触新事物、学习"}).then(function () {
                             botui.action.button({
                                 delay: 1100,
                                 action: [{text: "个人简介是什么呢？🤔", value: "what-info"}]
@@ -44,12 +44,12 @@ $(function () {
         })
     }, thirdPart = function () {
         botui.message.add({delay: 1e3, content: "脚下的路如果不是你自己的选择，那旅程的终点在哪，也没人知道 ..."}).then(function () {
-            botui.action.button({delay: 1500, action: [{text: "域名有什么含义吗？", value: "why-domain"}]}).then(function (a) {
+            botui.action.button({delay: 1500, action: [{text: "最近有什么计划吗？", value: "why-domain"}]}).then(function (a) {
                 fourthPart()
             })
         })
     }, fourthPart = function () {
-        botui.message.add({delay: 1e3, content: "emmmmm，当时喜欢玩联盟压缩（快乐风男），所以就以他的台词作为域名了，哈塞K"}).then(function () {
+        botui.message.add({delay: 1e3, content: "想有空好好搞一下摄影，多出去走走,呼吸下新鲜空气！"}).then(function () {
             botui.message.add({delay: 1600, content: "那么，相遇就是缘分，赏个赞吧 ^_^"})
         })
     }
