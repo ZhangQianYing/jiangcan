@@ -2,7 +2,7 @@ $(function () {
     var botui = new BotUI("hello-xuxuy");
     botui.message.add({delay: 800, content: "Hi, there👋"}).then(function () {
         botui.message.add({delay: 1100, content: "这里是博主小屋✨ "}).then(function () {
-            botui.message.add({delay: 1100, content: "一个积极向上的Boy~~"}).then(function () {
+            botui.message.add({delay: 1100, content: "一个积极向上的girl~~"}).then(function () {
                 botui.action.button({
                     delay: 1600,
                     action: [{text: "然后呢？ 😃", value: "sure"}, {text: "少废话！ 🙄", value: "skip"}]
@@ -23,12 +23,12 @@ $(function () {
             content: "告辞了您嘞！"
         })
     }, secondPart = function () {
-        botui.message.add({delay: 1500, content: "现就职于杭州邦治服饰贸易有限公司"}).then(function () {
+        botui.message.add({delay: 1500, content: "现就职于上海阪程有限公司"}).then(function () {
             botui.message.add({delay: 1500, content: "一枚标准90后UI设计师"}).then(function () {
                 botui.message.add({delay: 1200, content: "将作图看成一种快乐"}).then(function () {
                     botui.message.add({
                         delay: 1500,
-                        content: "拥有三年前端开发经验，熟练使用 ps Ai Pr Ae。"
+                        content: "拥有三年平面设计，熟练使用 ps Ai Pr Ae。"
                     }).then(function () {
                         botui.message.add({delay: 1800, content: "喜欢摄影、接触新事物、学习"}).then(function () {
                             botui.action.button({
